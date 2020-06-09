@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+}
+
+body {
+    font-family: 'GothamProRegular', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+.ftc-questions .container,
+.ftc-disclose .container,
+.ftc-solution .container {
+    width: 1200px;
+}
+.ftc-subtitle {
+    text-align: center;
+    margin: 15px 0;
+    color: rgba(29, 39, 52, 0.8);
+    font-size: 40px;
+    font-family: 'GothamProBold', serif;
+    line-height: 50px;
+}
+
+/*Header*/
+.header-link {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    background: #fff;
+    box-shadow: 0 0 25px rgba(127, 137, 161, 0.255);
+    z-index: 2;
+}
+.header-link-logo {
+    display: block;
+    float: left;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.header-link-menu {
+    float: left;
+    margin-left: 50px;
+}
+.header-link-menu li,
+.header-link-info li {
+    display: inline-block;
+    margin-right: 22px;
+}
+.header-link-menu li:last-child,
+.header-link-info li:last-child {
+    margin-right: 0;
+}
+.header-link-menu li a,
+.header-link-info li a {
+    color: #000;
+    font-size: 16px;
+    line-height: 85px;
+}
+.header-link-info {
+    float: right;
+}
+
+.ftc-text {
+    float: left;
+    max-width: 680px;
+    margin-top: 25px;
+    color: #595D66;
+    font-size: 32px;
+    line-height: 50px;
+}
+.ftc-solution .ftc-subtitle,
+.ftc-text span {
+    color: #EC3B22;
+}
+.ftc-image {
+    float: right;
+}
+
+/*FTC Questions*/
+.ftc-questions {
+    overflow: hidden;
+    padding: 125px 0 30px;
+}
+.ftc-questions .ftc-text,
+.ftc-solution .ftc-text {
+    padding-top: 100px;
+}
+
+/*FTC Disclose*/
+.ftc-disclose {
+    overflow: hidden;
+    padding: 20px 0 30px;
+    background: #F8F7F4;
+}
+.ftc-disclose .ftc-image {
+    float: left;
+    max-width: 510px;
+}
+.ftc-disclose .ftc-text {
+    float: right;
+}
+.ftc-disclose .ftc-text li {
+    max-width: 565px;
+    padding-left: 45px;
+}
+.ftc-disclose .ftc-text .ftc-subtitle {
+    margin-bottom: 30px;
+}
+
+/*FTC Solution*/
+.ftc-solution .ftc-text li:before {
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+    background: url("../images/solution_list_item.svg") no-repeat;
+}
+.ftc-slider {
+    max-width: 650px;
+    margin: 0 auto;
+}
+.slick-slide img {
+    margin: 0 auto;
+}
+.slick-dots {
+    text-align: center;
+    margin: 40px auto;
+}
+.slick-dots li {
+    display: inline-block;
+}
+.slick-dots li button {
+    width: 16px;
+    height: 16px;
+    margin: 0 5px 0 0;
+    background: #fff;
+    border: 2px solid rgba(83, 86, 91, 0.5);
+    border-radius: 100%;
+    text-indent: -9999999px;
+    cursor: pointer;
+}
+.slick-dots li.slick-active button {
+    background: #53565B;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);
+}
+.slider-item {
+    position: relative;
+}
+.scream-1,
+.scream-2 {
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 140px;
+    width: 260px;
+    height: 66px;
+    color: #53565B;
+    font-size: 20px;
+    font-family: 'GothamProMedium', serif;
+    line-height: 66px;
+    background: #99CCE9;
+    border-radius: 4px;
+}
+.scream-2 {
+    top: unset;
+    bottom: 55px;
+}
+.scream-1 {
+    top: 5px;
+}
+.slider-item.zoom .scream-1 {
+    top: 25px;
+}
+.scream-1 span,
+.scream-2 span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 33px;
+}
+
+.mobile-menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 99999;
+}
+.header-mobile, .box-mobile-menu, #mobile-menu-close {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

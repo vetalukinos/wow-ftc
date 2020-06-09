@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'GothamProRegular';
+    src: url("https://s.wow.link/fonts/GothamProRegular.eot");
+    src: url("https://s.wow.link/fonts/GothamProRegular.eot?#iefix") format("embedded-opentype"),
+    url("https://s.wow.link/fonts/GothamProRegular.woff") format("woff"),
+    url("https://s.wow.link/fonts/GothamProRegular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: 'GothamProMedium';
+    src: url("https://s.wow.link/fonts/GothamProMedium.eot");
+    src: url("https://s.wow.link/fonts/GothamProMedium.eot?#iefix") format("embedded-opentype"),
+    url("https://s.wow.link/fonts/GothamProMedium.woff") format("woff"),
+    url("https://s.wow.link/fonts/GothamProMedium.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: 'GothamProBold';
+    src: url('https://s.wow.link/fonts/GothamProBold.eot');
+    src: url('https://s.wow.link/fonts/GothamProBold.eot?#iefix') format("embedded-opentype"),
+    url('https://s.wow.link/fonts/GothamProBold.woff') format("woff"),
+    url('https://s.wow.link/fonts/GothamProBold.ttf') format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,215 @@
+@media (max-width: 1279px) {
+    .ftc-questions .container,
+    .ftc-disclose .container,
+    .ftc-solution .container {
+        width: 950px;
+    }
+    .ftc-text,
+    .ftc-image,
+    .ftc-disclose-image {
+        width: 50%;
+        margin-left: 0;
+    }
+    .ftc-disclose .ftc-image {
+        max-width: 50%;
+    }
+    .ftc-text {
+        margin-top: 0;
+    }
+    .ftc-image img,
+    .ftc-disclose .ftc-image img {
+        width: 100%;
+    }
+    .ftc-solution .ftc-image img {
+        width: auto;
+    }
+    .ftc-solution .ftc-text {
+        width: 45%;
+    }
+    .ftc-solution .ftc-image {
+        width: 55%;
+    }
+}
+@media (max-width: 980px) {
+    .ftc-questions .container,
+    .ftc-disclose .container,
+    .ftc-solution .container {
+        width: 738px;
+        padding: 0 15px;
+    }
+    .header-link-logo {
+        margin-left: 15px;
+    }
+    #adaptive-toggle-button {
+        margin-right: 10px;
+    }
+    .ftc-text,
+    .ftc-image,
+    .ftc-disclose .ftc-image,
+    .ftc-solution .ftc-text,
+    .ftc-solution .ftc-image,
+    .ftc-disclose .ftc-text {
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto 30px;
+    }
+    .ftc-disclose .ftc-image {
+        max-width: 100%;
+    }
+    .ftc-image img,
+    .ftc-disclose .ftc-image img {
+        width: auto;
+    }
+    .ftc-questions .ftc-text,
+    .ftc-solution .ftc-text {
+        padding-top: 0;
+    }
+    .ftc-text {
+        max-width: 100%;
+    }
+    .ftc-solution .ftc-text {
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        justify-content: center;
+        -webkit-justify-content: center;
+        text-align: left;
+    }
+    .ftc-disclose .ftc-text li {
+        text-align: left;
+    }
+    .ftc-disclose .ftc-text li {
+        max-width: 100%;
+        padding-left: 0;
+    }
+    .ftc-questions {
+        padding: 100px 0 30px;
+    }
+    /*Adaptive Menu*/
+    .header-link {
+        display: none;
+    }
+    .header-mobile {
+        display: block;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 98%;
+        height: 85px;
+        padding: 0 1%;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+        z-index: 9999;
+    }
+    .mobile-menu-top .header-link-logo {
+        margin-left: 25px;
+    }
+    #adaptive-toggle-button {
+        display: block;
+        float: right;
+        width: 32px;
+        height: 32px;
+        margin-top: 25px;
+        background: url('../images/toggle_button.svg') no-repeat center;
+        cursor: pointer;
+    }
+    .box-mobile-menu {
+        overflow: auto;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 100%;
+        background: #fff;
+        z-index: 99999;
+    }
+    .mobile-menu-top {
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        height: 85px;
+        background: #F5F5F5;
+    }
+    #mobile-menu-close {
+        display: block;
+        float: right;
+        width: 32px;
+        height: 32px;
+        margin: 25px 18px 0 0;
+        background: url('../images/close_menu.svg') no-repeat center;
+        cursor: pointer;
+    }
+    .mobile-menu-bottom {
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .mobile-menu-bottom .header-link-menu,
+    .mobile-menu-bottom .header-link-info {
+        float: none;
+        margin-left: 0;
+    }
+    .mobile-menu-bottom li {
+        display: block;
+        margin: 12px 0 0 25px;
+    }
+    .mobile-menu-bottom li a {
+        padding: 0;
+        line-height: 22px;
+        border-right: none;
+    }
+    .mobile-menu-bottom li:after {
+        content: '';
+        display: block;
+        width: 10px;
+        margin-top: 12px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+}
+@media (max-width: 768px) {
+    .ftc-questions .container,
+    .ftc-disclose .container,
+    .ftc-solution .container {
+        width: 95%;
+        padding: 0;
+    }
+    .ftc-subtitle {
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .ftc-text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .ftc-solution .ftc-text li {
+        padding-top: 10px;
+    }
+    .ftc-solution .ftc-text li:before {
+        vertical-align: middle;
+    }
+}
+@media (max-width: 480px) {
+    .ftc-subtitle {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .ftc-text,
+    .solution-tab {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .ftc-image img,
+    .ftc-disclose .ftc-image img {
+        width: 100%;
+    }
+    .scream-1, .scream-2 {
+        right: 0;
+    }
+    .ftc-questions {
+        padding: 90px 0 30px;
+    }
+    .ftc-solution .ftc-text li {
+        padding-top: 15px;
+    }
+}
